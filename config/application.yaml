@@ -1,0 +1,5 @@
+# 用于编写常用的全局环境配置
+
+# url
+base:
+  url: https://www.baidu.com/
