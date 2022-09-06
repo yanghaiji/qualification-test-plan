@@ -41,4 +41,5 @@ secrets.yml
 logs
 report
 .pytest_cache
+venv
 
