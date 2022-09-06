@@ -1,0 +1,2 @@
+inputelment: 'xpath==//*[@id="kw"]'
+click_search: 'xpath==//*[@id="su"]'
