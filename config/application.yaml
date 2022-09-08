@@ -3,3 +3,6 @@
 # url
 base:
   url: https://www.baidu.com/
+
+interface:
+  url: http://localhost:8080
