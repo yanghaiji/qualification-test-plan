@@ -1,0 +1,11 @@
+- name: 保存用户信息
+  request:
+    method: post
+    url: /user/save
+    headers:
+      Content-Type: application/json
+    data:
+      userName: test
+      pwd: 123456
+      age: 28
+  validation: None
