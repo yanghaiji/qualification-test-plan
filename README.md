@@ -24,10 +24,36 @@
 ├───utils  # 常用工具类
 ├───requriment.txt  # 项目相关依赖
 ├───pytest.ini  # pytest 只配置
-├───main.py  # 启动类
+├───main.py  # 测试类
+├───run.py  # 启动类
 
 ```
 
 > 本项目采用POM 设计模式，即Page Object Model
 > 
 
+## 项目依赖安装
+
+### 虚拟环境初始化
+
+- 进入项目
+> cd  project directory
+
+- 创建虚拟环境
+> python -m venv venv
+>
+- 激活虚拟环境 
+    - Windows:
+    >.\venv\Scripts\activate.bat
+    - Unix 或 MacOs 上：
+    > source venv/bin/activate
+
+
+### 安装项目依赖 在txt文件内
+
+> pip install -r requirement.txt
+> 
+
+### 启动项目
+
+> 安装完成后， 原则 rur.py进行项目启动，启动后则会在本地 report/html/ 内成绩测试报告
