@@ -48,11 +48,12 @@
     - Unix 或 MacOs 上：
     > source venv/bin/activate
 
-
+  
 ### 安装项目依赖 在txt文件内
 
-> pip install -r requirement.txt
+> pip install -r requirements.txt
 > 
+> 确保您的电脑已经安装了 selenium 的 webdriver
 
 ### 启动项目
 
