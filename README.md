@@ -22,7 +22,7 @@
 │   ├───interface  # 接口相关
 │   ├───webui  # web自动化相关
 ├───utils  # 常用工具类
-├───requriment.txt  # 项目相关依赖
+├───requirements.txt  # 项目相关依赖
 ├───pytest.ini  # pytest 只配置
 ├───main.py  # 测试类
 ├───run.py  # 启动类
