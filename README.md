@@ -22,7 +22,7 @@
 │   ├───interface  # 接口相关
 │   ├───webui  # web自动化相关
 ├───utils  # 常用工具类
-├───requriment.txt  # 项目相关依赖
+├───requirements.txt  # 项目相关依赖
 ├───pytest.ini  # pytest 只配置
 ├───main.py  # 测试类
 ├───run.py  # 启动类
@@ -48,11 +48,12 @@
     - Unix 或 MacOs 上：
     > source venv/bin/activate
 
-
+  
 ### 安装项目依赖 在txt文件内
 
-> pip install -r requirement.txt
+> pip install -r requirements.txt
 > 
+> 确保您的电脑已经安装了 selenium 的 webdriver
 
 ### 启动项目
 
