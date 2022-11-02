@@ -49,7 +49,3 @@ def read_config_file(base, base_url):
         value = yaml.load(stream=f, Loader=yaml.FullLoader)
         return value[base][base_url]
 
-
-if __name__ == '__main__':
-    # print(str(pathlib.Path(os.getcwd() + '/testcase/', "yaml_test/profile_series_page.yaml")))
-    print(read_testcase("yaml_test/profile_series_page.yaml"))
