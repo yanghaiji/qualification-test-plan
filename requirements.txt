@@ -8,6 +8,8 @@ allure-pytest==2.9.45
 requests==2.28.1
 jsonpath==0.82
 loguru==0.6.0
+PyYAML==6.0
+selenium==4.6.0
 
 
 
