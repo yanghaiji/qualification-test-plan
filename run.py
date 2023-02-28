@@ -13,10 +13,12 @@ import os
 
 import pytest
 
+import install_chrome
 from config.conf import cm
 
 if __name__ == '__main__':
     # 当前路径(使用 abspath 方法可通过dos窗口执行)
+    install_chrome.check_update_chromedriver("C:\\python_tools\\")
     current_path = cm.BASE_DIR
     # json报告路径
     json_report_path = os.path.join(current_path, 'report/json')
